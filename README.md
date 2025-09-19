@@ -18,8 +18,9 @@ Grund-Projektstruktur vorhanden!
    cd SetUp_Flask
 
 python3 -m venv venv
-source venv/bin/activate      # macOS/Linux
-venv\Scripts\activate         # Windows PowerShell
+
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate    # Windows PowerShell
 
 Abhängigkeiten installieren:
 pip install -r requirements.txt
