@@ -32,7 +32,7 @@ cp .env.example .env
 Entwicklungsmodus (Debug)
 ---> python run.py
 
-oder via Flask CLI:
+ODER via Flask CLI:
 
 macOS/Linux---> export FLASK_APP=run.py       
 Windows---> set FLASK_APP=run.py        
@@ -45,7 +45,7 @@ App läuft dann unter http://127.0.0.1:5000/.
 
 🧪 Tests ausführen
 -->pytest<-- falls pytest installiert ist
->oder<
+ODER
 -->python -m unittest<--
 
 ---
