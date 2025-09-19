@@ -22,13 +22,13 @@ python3 -m venv venv
 macOS/Linux: source --> venv/bin/activate  
 Windows PowerShell --> venv\Scripts\activate    
 
-Abhängigkeiten installieren:
+## Abhängigkeiten installieren:
 pip install -r requirements.txt
 cp .env.example .env
 
 ---
 
-▶️ Starten der Flask-App
+## ▶️ Starten der Flask-App
 Entwicklungsmodus (Debug)
 ---> python run.py
 
@@ -39,18 +39,18 @@ Windows---> set FLASK_APP=run.py
 
 --> flask run --debug
 
-App läuft dann unter http://127.0.0.1:5000/.
+## App läuft dann unter http://127.0.0.1:5000/.
 
 ---
 
-🧪 Tests ausführen
+## 🧪 Tests ausführen
 -->pytest<-- falls pytest installiert ist
 ODER
 -->python -m unittest<--
 
 ---
 
-📦 Docker (optional)
+## 📦 Docker (optional)
 
 Falls ein Dockerfile vorhanden ist:
 
@@ -61,7 +61,7 @@ docker run -p 5000:5000 flask-template
 
 ---
 
-Wofür dieses Template dient
+## Wofür dieses Template dient
 
 Schneller Start für neue Flask-Projekte
 
