@@ -19,8 +19,8 @@ Grund-Projektstruktur vorhanden!
 
 python3 -m venv venv
 
-# macOS/Linux: source --> venv/bin/activate  
-# Windows PowerShell --> venv\Scripts\activate    
+macOS/Linux: source --> venv/bin/activate  
+Windows PowerShell --> venv\Scripts\activate    
 
 Abhängigkeiten installieren:
 pip install -r requirements.txt
