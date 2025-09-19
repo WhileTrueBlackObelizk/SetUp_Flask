@@ -6,25 +6,7 @@ Es bietet eine sofort einsatzbereite Struktur, um neue Projekte schneller und sa
 Ideal für API-Projekte, kleine Webapps oder MVPs.
 
 ---
-
-## 📂 Projektstruktur
-flask_template/
-│
-├─ app/
-│ ├─ init.py # App Factory + Config
-│ ├─ routes.py # Beispiel-Routen
-│ ├─ static/ # CSS/JS/Assets
-│ └─ templates/ # Jinja2-Templates
-│
-├─ tests/
-│ └─ test_basic.py # Beispiel-Test
-│
-├─ .env.example # Beispiel für Umgebungsvariablen
-├─ config.py # Dev/Test/Prod Configs
-├─ requirements.txt # Abhängigkeiten
-├─ run.py # Startpunkt für Flask-App
-└─ README.md
-
+Grund-Projektstruktur vorhanden!
 
 ---
 
