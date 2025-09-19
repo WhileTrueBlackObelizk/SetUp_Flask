@@ -34,8 +34,8 @@ Entwicklungsmodus (Debug)
 
 oder via Flask CLI:
 
----> export FLASK_APP=run.py       # macOS/Linux
----> set FLASK_APP=run.py          # Windows
+macOS/Linux---> export FLASK_APP=run.py       
+Windows---> set FLASK_APP=run.py        
 
 --> flask run --debug
 
