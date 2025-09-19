@@ -30,13 +30,14 @@ cp .env.example .env
 
 ▶️ Starten der Flask-App
 Entwicklungsmodus (Debug)
-python run.py
+---> python run.py
 
 oder via Flask CLI:
 
-export FLASK_APP=run.py       # macOS/Linux
-set FLASK_APP=run.py          # Windows
-flask run --debug
+---> export FLASK_APP=run.py       # macOS/Linux
+---> set FLASK_APP=run.py          # Windows
+
+--> flask run --debug
 
 App läuft dann unter http://127.0.0.1:5000/.
 
